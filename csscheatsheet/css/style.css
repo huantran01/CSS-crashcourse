@@ -1,14 +1,24 @@
 body{
     background-color: #f4f4f4;
     color: rgb(125, 123, 123);
-
+    
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18;
     font-weight:normal;
-
-
+    
+    
     line-height: 3em;
     margin: 0;
+}
+.button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+button:hover{
+    background-color: red;
+    color: #ccc;
 }
 a{
     text-decoration: none;
@@ -65,5 +75,19 @@ a:hover{
 .categories ul{
     padding: 12px;
     list-style: none;
+}
+
+.my-form{
+    padding: 20px;
+}
+.my-form .form-group{
+    padding: 15px;
+}
+.my-form label{
+    display: block;
+}
+.my-form input[type="text"],{
+    padding: 8px;
+    width: 100%;
 }
 
